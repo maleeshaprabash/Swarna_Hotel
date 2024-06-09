@@ -56,6 +56,7 @@ public class Dashboard extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Dashboard");
+        setPreferredSize(new java.awt.Dimension(1400, 800));
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 204));
         jPanel1.setMinimumSize(new java.awt.Dimension(1300, 800));
@@ -146,11 +147,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel3.add(Left, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 800));
 
         Right.setBackground(new java.awt.Color(255, 255, 255));
-        Right.setPreferredSize(new java.awt.Dimension(1000, 800));
+        Right.setPreferredSize(new java.awt.Dimension(1100, 800));
         Right.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel5.setBackground(new java.awt.Color(0, 153, 153));
-        jPanel5.setPreferredSize(new java.awt.Dimension(1000, 75));
+        jPanel5.setPreferredSize(new java.awt.Dimension(1100, 75));
 
         jLabel2.setFont(new java.awt.Font("Snap ITC", 3, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -163,7 +164,7 @@ public class Dashboard extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(379, 379, 379)
                 .addComponent(jLabel2)
-                .addContainerGap(379, Short.MAX_VALUE))
+                .addContainerGap(479, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -326,25 +327,25 @@ public class Dashboard extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(RmTable);
 
-        Right.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 540, 650));
+        Right.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 650, 650));
 
-        jPanel3.add(Right, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, -1, -1));
+        jPanel3.add(Right, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 1200, -1));
 
         jPanel1.add(jPanel3);
-        jPanel3.setBounds(0, 0, 1300, 800);
+        jPanel3.setBounds(0, 0, 1400, 800);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1300, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1400, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        setSize(new java.awt.Dimension(1318, 847));
+        setSize(new java.awt.Dimension(1418, 847));
         setLocationRelativeTo(null);
     }// </editor-fold>                        
 
